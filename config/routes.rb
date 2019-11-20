@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'flats/index'
+  get 'flats/show'
+  get 'flats/new'
+  get 'flats/edit'
+  get 'flats/create'
+  get 'flats/update'
+  get 'flats/destroy'
+  resources :flats
 end
